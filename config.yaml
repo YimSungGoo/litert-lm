@@ -1,0 +1,12 @@
+backend: cpu
+caption_prompt: "이 CCTV 프레임을 한 문장으로 상세히 설명해. \n사람, 성별, 옷, 행동, 차량. 물체, 장소 특징을 포함해.\
+  \ \n서론 없이 바로 설명해.\n"
+db_path: /home/yimstar9/liteRT-lm/dev-db
+embedding_model_path: paraphrase-multilingual-MiniLM-L12-v2
+frame_interval: 1
+frame_width: 640
+host: 0.0.0.0
+model_path: /home/yimstar9/.cache/huggingface/hub/models--litert-community--gemma-4-E4B-it-litert-lm/snapshots/1a64948b38efa40cd88a820e1e7cc1a6179ae05e/gemma-4-E4B-it.litertlm
+port: 7860
+recording_dir: /home/yimstar9/liteRT-lm/video
+top_k: 5
